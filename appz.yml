@@ -1,7 +1,7 @@
 app:
   name: AppZ IDE
   code: APPZIDE
-  notify: appzdev@cloudbourne.co
+  notify: sumit.bansal@hikeqa.com
 
 build:
   version: 0.2
@@ -12,7 +12,7 @@ build:
 
 deploy:
   type: statefulset
-  context: alpha/DEV
+  context: sumithikeqa/DEV
   replicas: 1
   port:
   - 80
